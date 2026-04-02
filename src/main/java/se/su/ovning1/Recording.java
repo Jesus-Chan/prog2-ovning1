@@ -36,7 +36,7 @@ abstract public class Recording extends Item implements PriceableWithVAT25 {
         if (newPrice < 10)
             newPrice = 10;
 
-        return newPrice * 1.25;
+        return newPrice;
     }
     public double getOriginalPrice(){
         return price;

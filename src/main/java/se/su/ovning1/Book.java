@@ -1,5 +1,4 @@
 package se.su.ovning1;
-
 // Book ärver från Item och får name + getName()
 // och implementerar VAT6 får 6% moms automatiskt
 public class Book extends Item implements PriceableWithVAT6 {

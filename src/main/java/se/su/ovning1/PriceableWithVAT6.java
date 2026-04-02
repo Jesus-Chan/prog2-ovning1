@@ -1,5 +1,4 @@
 package se.su.ovning1;
-
 public interface PriceableWithVAT6 extends Priceable {
 
     // istället för att varje klass ska göra det själv
