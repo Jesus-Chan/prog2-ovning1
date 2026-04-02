@@ -14,13 +14,10 @@ public class Book extends Item implements PriceableWithVAT6 {
         this.author = author;
     }
 
-    public String getType() {
-        return "Book";
-    }
+//    private String getType() {
+//        return "Book";
+//    }
 
-    public String getAuthor() {
-        return author;
-    }
 
     public double getPrice() {
 
