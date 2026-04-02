@@ -18,9 +18,10 @@ abstract public class Recording extends Item implements PriceableWithVAT25 {
 
     public abstract String getType();
 
-    public String getName(){
-        return name;
+    public String toString(){
+        return getType() + " " + getArtist() + " " + getName() + " " + getCondition() + " " + getYear() + " " + getOriginalPrice() + " " + getPrice() + " " + getPriceWithVAT();
     }
+
     public String getArtist(){
         return artist;
     }
@@ -38,7 +39,7 @@ abstract public class Recording extends Item implements PriceableWithVAT25 {
 
         return newPrice;
     }
-    public double getOriginalPrice(){
+    private double getOriginalPrice(){
         return price;
     }
 }
