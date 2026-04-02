@@ -6,9 +6,9 @@ package se.su.ovning1;
 public abstract class Item implements Priceable {
 
     // protected = subklasser (Book osv) kan använda denna direkt
-    protected String name;
+    private String name;
 
-    public Item(String name) {
+    protected Item(String name) {
         this.name = name;
     }
 
