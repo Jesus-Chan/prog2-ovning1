@@ -1,0 +1,9 @@
+{
+    "accessibility.verbosity.inlineChat": false,
+    "inlineChat.accessibleDiffView": "off",
+    "inlineChat.lineNaturalLanguageHint": false,
+    "inlineChat.holdToSpeech": false,
+    "notebook.experimental.generate": false,
+    "inlineChat.affordance": "off"
+    
+}
